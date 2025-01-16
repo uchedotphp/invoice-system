@@ -10,6 +10,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
+  <h1 className="text-3xl text-red-400 font-bold underline">tailwind install successful</h1>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
